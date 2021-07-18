@@ -1,0 +1,197 @@
+body.light {
+    --background-color: var(--light-background-color);
+    --text-color: var(--light-text-color);
+    --hover-color: var(--light-hover-color);
+    --text-hover-color: var(--light-text-hover-color);
+    --component-color: var(--light-component-color);
+  }
+  body.dark {
+    --background-color: var(--dark-background-color);
+    --text-color: var(--dark-text-color);
+    --hover-color: var(--dark-hover-color);
+    --text-hover-color: white;
+    --component-color: var(--dark-component-color);
+  }
+
+
+.profileflexcontainer {
+width: 100vw;
+height: 1200px;
+background-color: var(--background-color) ;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.profilepagecontainer {
+    width: 80%;
+    height: 1200px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.profilecontainer {
+    height: 600px;
+    width: 25%;
+    background-color: var(--component-color);
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilepicturecontainer {
+    width: 100px;
+    height: 100px;
+    background-color: var(--background-color);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: var(--text-color);
+    border-width: 2px;
+}
+
+.profilepicturecontainer img {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-radius: 100px;
+}
+
+.usernameprofilecontainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profilecontainer h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    color: var(--text-color);
+}
+
+.inventorycontainer {
+    height: 800px;
+    width: 70%;
+    background-color: var(--component-color);
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-top: 150px;
+}
+
+
+
+@media (max-width: 1500px) {
+
+
+    .profileflexcontainer {
+        width: 100vw;
+        height: 2500px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+    .profilepagecontainer {
+        width: 70%;
+        height: 2000px;
+        flex-direction: column;
+       
+        align-items: center;
+        justify-content: end;
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
+    
+    .profilecontainer {
+        height: 800px;
+        width: 90%;
+        background-color: var(--component-color);
+        margin-top: 0px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px
+    }
+
+    .profilepicturecontainer {
+        width: 150px;
+        height: 150px;
+        background-color: var(--background-color);
+        border-radius: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .inventorycontainer {
+        height: 800px;
+        width: 100%;
+     
+        margin-left: 0;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+
+    .profileflexcontainer {
+        width: 100vw;
+        height: 2500px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .profilepagecontainer {
+        width: 85%;
+        height: 2300px;
+        margin-left: 0;
+     
+        margin-bottom: 0px;
+        margin-top: 100px;
+    }
+
+    .profilecontainer {
+        height: 700px;
+        width: 100%;
+        background-color: var(--component-color);
+        margin-top: 0px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px
+    }
+
+    .profilepicturecontainer {
+        width: 100px;
+        height: 100px;
+        background-color: var(--background-color);
+        border-radius: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+
